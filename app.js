@@ -61,18 +61,3 @@ app.post('/', (req, res)=> {
 app.listen(port || 3000,()=>{
     console.log(`Listening on port ${port}.`);
 })
-
-// async function run() {
-//     const response = await mailchimp.ping.get();
-//     console.log(response);
-// }
-
-// run();
-
-
-
-// API key
-// 3dd0812b21979ea2cd53ce4df9ee8831-us21
-
-// Audience or List ID
-// 758b2833c2
